@@ -508,6 +508,16 @@ main {
 .header-container {
     position: relative;
 }
+.header-container > a{
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Philosopher;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.4);
+}
 
 .header-text {
     display: table-cell;
@@ -528,6 +538,11 @@ main {
     position: fixed;
     z-index: -1;
 }
+.site-logo{
+    width: 60px;
+    float: left;
+    margin: 10px;
+}
 
 .home-template h1.blog-title {
     font-size: 5.2rem;
@@ -542,20 +557,31 @@ h1.blog-title {
     font-weight: 700;
     letter-spacing: 0.4px;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 3px rgba(51, 51, 51, 0.42);
+}
+.website {
+    font-size: 2.3rem;
+}
+.website sup{
+    font-size: 0.7rem;
+    left: -0.6rem;
+    top: -1rem;
 }
 
 .blog-description {
-	font-size: 19px;
-    font-size: 1.9rem;
-    letter-spacing: 0.2px;
+    font-family: monospace;
+    font-size: 22px;
+    font-size: 2.2rem;
+    letter-spacing: 0.15px;
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.43);
 }
 
 .main-nav {
     position: absolute;
     bottom: 0;
     width: 100%;
-	background: rgb(247,97,97);
-    background-color: rgba(247,97,97,0.85);
+	background: rgb(51, 59, 69);
+    background-color: rgba(51, 59, 69, 0.86);
     z-index: 100;
     text-align: center;
 }
@@ -978,7 +1004,7 @@ main {
 
 
     h1, h2 {
-		font-size: 30px;	
+		font-size: 30px;
         font-size: 3rem;
         line-height: 1.1em;
         letter-spacing: -1px;
